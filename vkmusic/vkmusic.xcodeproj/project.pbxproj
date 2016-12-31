@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84073CB61E17F6C50043097B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CB51E17F6C50043097B /* main.m */; };
+		84073CB91E17F6C50043097B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CB81E17F6C50043097B /* AppDelegate.m */; };
+		84073CBF1E17F6C50043097B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073CBD1E17F6C50043097B /* Main.storyboard */; };
+		84073CC11E17F6C50043097B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84073CC01E17F6C50043097B /* Assets.xcassets */; };
+		84073CC41E17F6C50043097B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073CC21E17F6C50043097B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84073CB11E17F6C50043097B /* vkmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84073CB51E17F6C50043097B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84073CB71E17F6C50043097B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84073CB81E17F6C50043097B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84073CBE1E17F6C50043097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84073CC01E17F6C50043097B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84073CC31E17F6C50043097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84073CC51E17F6C50043097B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84073CAE1E17F6C50043097B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84073CA81E17F6C50043097B = {
+			isa = PBXGroup;
+			children = (
+				84073CCC1E17F83E0043097B /* Library */,
+				84073CD91E17F83E0043097B /* Source */,
+				84073CB31E17F6C50043097B /* vkmusic */,
+				84073CB21E17F6C50043097B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84073CB21E17F6C50043097B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84073CB11E17F6C50043097B /* vkmusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84073CB31E17F6C50043097B /* vkmusic */ = {
+			isa = PBXGroup;
+			children = (
+				84073CB71E17F6C50043097B /* AppDelegate.h */,
+				84073CB81E17F6C50043097B /* AppDelegate.m */,
+				84073CBD1E17F6C50043097B /* Main.storyboard */,
+				84073CC01E17F6C50043097B /* Assets.xcassets */,
+				84073CC21E17F6C50043097B /* LaunchScreen.storyboard */,
+				84073CC51E17F6C50043097B /* Info.plist */,
+				84073CB41E17F6C50043097B /* Supporting Files */,
+			);
+			path = vkmusic;
+			sourceTree = "<group>";
+		};
+		84073CB41E17F6C50043097B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84073CB51E17F6C50043097B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84073CCC1E17F83E0043097B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				84073CCD1E17F83E0043097B /* AKIConst */,
+				84073CCF1E17F83E0043097B /* AKIMacro */,
+				84073CD01E17F83E0043097B /* Classes */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		84073CCD1E17F83E0043097B /* AKIConst */ = {
+			isa = PBXGroup;
+			children = (
+				84073CCE1E17F83E0043097B /* AKIVKConst */,
+			);
+			path = AKIConst;
+			sourceTree = "<group>";
+		};
+		84073CCE1E17F83E0043097B /* AKIVKConst */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIVKConst;
+			sourceTree = "<group>";
+		};
+		84073CCF1E17F83E0043097B /* AKIMacro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIMacro;
+			sourceTree = "<group>";
+		};
+		84073CD01E17F83E0043097B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84073CD11E17F83E0043097B /* AKIGCD */,
+				84073CD21E17F83E0043097B /* AKIObservableObject */,
+				84073CD31E17F83E0043097B /* Models */,
+				84073CD61E17F83E0043097B /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84073CD11E17F83E0043097B /* AKIGCD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIGCD;
+			sourceTree = "<group>";
+		};
+		84073CD21E17F83E0043097B /* AKIObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIObservableObject;
+			sourceTree = "<group>";
+		};
+		84073CD31E17F83E0043097B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84073CD41E17F83E0043097B /* AKIImage */,
+				84073CD51E17F83E0043097B /* AKIModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84073CD41E17F83E0043097B /* AKIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIImage;
+			sourceTree = "<group>";
+		};
+		84073CD51E17F83E0043097B /* AKIModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIModel;
+			sourceTree = "<group>";
+		};
+		84073CD61E17F83E0043097B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84073CD71E17F83E0043097B /* AKISpinnerView */,
+				84073CD81E17F83E0043097B /* AKIView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84073CD71E17F83E0043097B /* AKISpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKISpinnerView;
+			sourceTree = "<group>";
+		};
+		84073CD81E17F83E0043097B /* AKIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIView;
+			sourceTree = "<group>";
+		};
+		84073CD91E17F83E0043097B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84073CDA1E17F83E0043097B /* Categories */,
+				84073CDB1E17F83E0043097B /* Models */,
+				84073CDC1E17F83E0043097B /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		84073CDA1E17F83E0043097B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		84073CDB1E17F83E0043097B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84073CDC1E17F83E0043097B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84073CDD1E17F83E0043097B /* AKIAbstractViewController */,
+				84073CDE1E17F83E0043097B /* AKIVKViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84073CDD1E17F83E0043097B /* AKIAbstractViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIAbstractViewController;
+			sourceTree = "<group>";
+		};
+		84073CDE1E17F83E0043097B /* AKIVKViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84073CDF1E17F83E0043097B /* AKIVKLoginViewController */,
+				84073CE01E17F83E0043097B /* AKIVKMusicScreenViewController */,
+			);
+			path = AKIVKViewController;
+			sourceTree = "<group>";
+		};
+		84073CDF1E17F83E0043097B /* AKIVKLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIVKLoginViewController;
+			sourceTree = "<group>";
+		};
+		84073CE01E17F83E0043097B /* AKIVKMusicScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKIVKMusicScreenViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84073CB01E17F6C50043097B /* vkmusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84073CC81E17F6C50043097B /* Build configuration list for PBXNativeTarget "vkmusic" */;
+			buildPhases = (
+				84073CAD1E17F6C50043097B /* Sources */,
+				84073CAE1E17F6C50043097B /* Frameworks */,
+				84073CAF1E17F6C50043097B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vkmusic;
+			productName = vkmusic;
+			productReference = 84073CB11E17F6C50043097B /* vkmusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84073CA91E17F6C50043097B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Alexey Khomych";
+				TargetAttributes = {
+					84073CB01E17F6C50043097B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84073CAC1E17F6C50043097B /* Build configuration list for PBXProject "vkmusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84073CA81E17F6C50043097B;
+			productRefGroup = 84073CB21E17F6C50043097B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84073CB01E17F6C50043097B /* vkmusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84073CAF1E17F6C50043097B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073CC41E17F6C50043097B /* LaunchScreen.storyboard in Resources */,
+				84073CC11E17F6C50043097B /* Assets.xcassets in Resources */,
+				84073CBF1E17F6C50043097B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84073CAD1E17F6C50043097B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073CB91E17F6C50043097B /* AppDelegate.m in Sources */,
+				84073CB61E17F6C50043097B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84073CBD1E17F6C50043097B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84073CBE1E17F6C50043097B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84073CC21E17F6C50043097B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84073CC31E17F6C50043097B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84073CC61E17F6C50043097B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84073CC71E17F6C50043097B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84073CC91E17F6C50043097B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vkmusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AKI.vkmusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84073CCA1E17F6C50043097B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vkmusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AKI.vkmusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84073CAC1E17F6C50043097B /* Build configuration list for PBXProject "vkmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073CC61E17F6C50043097B /* Debug */,
+				84073CC71E17F6C50043097B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84073CC81E17F6C50043097B /* Build configuration list for PBXNativeTarget "vkmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073CC91E17F6C50043097B /* Debug */,
+				84073CCA1E17F6C50043097B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84073CA91E17F6C50043097B /* Project object */;
+}
