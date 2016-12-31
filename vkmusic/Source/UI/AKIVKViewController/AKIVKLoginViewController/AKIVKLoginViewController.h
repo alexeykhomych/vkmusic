@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AKIVKLoginViewController.h
 //  vkmusic
 //
 //  Created by Alexey Khomych on 31.12.16.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "AKIVKViewController.h"
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface AKIVKLoginViewController : AKIVKViewController
 
 @end
-
