@@ -8,21 +8,113 @@
 
 /* Begin PBXBuildFile section */
 		84073CB61E17F6C50043097B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CB51E17F6C50043097B /* main.m */; };
-		84073CB91E17F6C50043097B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CB81E17F6C50043097B /* AppDelegate.m */; };
+		84073CB91E17F6C50043097B /* AKIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CB81E17F6C50043097B /* AKIAppDelegate.m */; };
 		84073CBF1E17F6C50043097B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073CBD1E17F6C50043097B /* Main.storyboard */; };
 		84073CC11E17F6C50043097B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84073CC01E17F6C50043097B /* Assets.xcassets */; };
 		84073CC41E17F6C50043097B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073CC21E17F6C50043097B /* LaunchScreen.storyboard */; };
+		84073CE31E17F9640043097B /* AKIAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CE21E17F9640043097B /* AKIAbstractViewController.m */; };
+		84073CE71E17F9890043097B /* AKIVKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CE51E17F9890043097B /* AKIVKLoginViewController.m */; };
+		84073CE81E17F9890043097B /* AKIVKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84073CE61E17F9890043097B /* AKIVKLoginViewController.xib */; };
+		84073CEC1E17F99B0043097B /* AKIVKMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CEA1E17F99B0043097B /* AKIVKMusicViewController.m */; };
+		84073CED1E17F99B0043097B /* AKIVKMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84073CEB1E17F99B0043097B /* AKIVKMusicViewController.xib */; };
+		84073CF01E17F9B30043097B /* AKIVKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CEF1E17F9B30043097B /* AKIVKViewController.m */; };
+		84073CF41E17FA3D0043097B /* AKIVKMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CF31E17FA3D0043097B /* AKIVKMusicView.m */; };
+		84073CF81E17FA800043097B /* AKIVKMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CF71E17FA800043097B /* AKIVKMusicCell.m */; };
+		84073CFA1E17FA8D0043097B /* AKIVKMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84073CF91E17FA8D0043097B /* AKIVKMusicCell.xib */; };
+		84073CFD1E1800F60043097B /* AKIGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CFC1E1800F60043097B /* AKIGCD.m */; };
+		84073D001E1801230043097B /* AKIObservableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073CFF1E1801230043097B /* AKIObservableObject.m */; };
+		84073D071E18017C0043097B /* AKIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D061E18017C0043097B /* AKIView.m */; };
+		84073D101E1801A80043097B /* AKISpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D0E1E1801A80043097B /* AKISpinnerView.m */; };
+		84073D111E1801A80043097B /* AKISpinnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84073D0F1E1801A80043097B /* AKISpinnerView.xib */; };
+		84073D141E1801CA0043097B /* AKIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D131E1801CA0043097B /* AKIModel.m */; };
+		84073D421E1801EC0043097B /* JSON+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D1D1E1801EC0043097B /* JSON+AKIExtensions.m */; };
+		84073D431E1801EC0043097B /* NSArray+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D201E1801EC0043097B /* NSArray+AKIExtensions.m */; };
+		84073D441E1801EC0043097B /* NSBundle+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D231E1801EC0043097B /* NSBundle+AKIExtensions.m */; };
+		84073D451E1801EC0043097B /* NSFileManager+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D261E1801EC0043097B /* NSFileManager+AKIExtensions.m */; };
+		84073D461E1801EC0043097B /* NSMutableArray+AKIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D291E1801EC0043097B /* NSMutableArray+AKIExtension.m */; };
+		84073D471E1801EC0043097B /* NSNotificationCenter+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D2C1E1801EC0043097B /* NSNotificationCenter+AKIExtensions.m */; };
+		84073D481E1801EC0043097B /* NSObject+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D2F1E1801EC0043097B /* NSObject+AKIExtensions.m */; };
+		84073D491E1801EC0043097B /* NSString+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D321E1801EC0043097B /* NSString+AKIExtensions.m */; };
+		84073D4A1E1801ED0043097B /* UINib+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D351E1801EC0043097B /* UINib+AKIExtensions.m */; };
+		84073D4B1E1801ED0043097B /* AKIArrayChangeModel+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D391E1801EC0043097B /* AKIArrayChangeModel+AKIExtensions.m */; };
+		84073D4C1E1801ED0043097B /* UITableView+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D3B1E1801EC0043097B /* UITableView+AKIExtensions.m */; };
+		84073D4D1E1801ED0043097B /* UIViewController+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D3E1E1801EC0043097B /* UIViewController+AKIExtensions.m */; };
+		84073D4E1E1801ED0043097B /* UIWindow+AKIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D411E1801EC0043097B /* UIWindow+AKIExtensions.m */; };
+		84073D551E1802080043097B /* AKIArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D511E1802080043097B /* AKIArrayModel.m */; };
+		84073D561E1802080043097B /* AKIUsersArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D541E1802080043097B /* AKIUsersArrayModel.m */; };
+		84073D5A1E1802100043097B /* AKIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D591E1802100043097B /* AKIUser.m */; };
+		84073D5D1E1804F90043097B /* AKIMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073D5C1E1804F90043097B /* AKIMacro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84073CB11E17F6C50043097B /* vkmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84073CB51E17F6C50043097B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84073CB71E17F6C50043097B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84073CB81E17F6C50043097B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84073CB71E17F6C50043097B /* AKIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKIAppDelegate.h; sourceTree = "<group>"; };
+		84073CB81E17F6C50043097B /* AKIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKIAppDelegate.m; sourceTree = "<group>"; };
 		84073CBE1E17F6C50043097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84073CC01E17F6C50043097B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84073CC31E17F6C50043097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84073CC51E17F6C50043097B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84073CE11E17F9640043097B /* AKIAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIAbstractViewController.h; sourceTree = "<group>"; };
+		84073CE21E17F9640043097B /* AKIAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIAbstractViewController.m; sourceTree = "<group>"; };
+		84073CE41E17F9890043097B /* AKIVKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIVKLoginViewController.h; sourceTree = "<group>"; };
+		84073CE51E17F9890043097B /* AKIVKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIVKLoginViewController.m; sourceTree = "<group>"; };
+		84073CE61E17F9890043097B /* AKIVKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKIVKLoginViewController.xib; sourceTree = "<group>"; };
+		84073CE91E17F99B0043097B /* AKIVKMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIVKMusicViewController.h; sourceTree = "<group>"; };
+		84073CEA1E17F99B0043097B /* AKIVKMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIVKMusicViewController.m; sourceTree = "<group>"; };
+		84073CEB1E17F99B0043097B /* AKIVKMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKIVKMusicViewController.xib; sourceTree = "<group>"; };
+		84073CEE1E17F9B30043097B /* AKIVKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIVKViewController.h; sourceTree = "<group>"; };
+		84073CEF1E17F9B30043097B /* AKIVKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIVKViewController.m; sourceTree = "<group>"; };
+		84073CF21E17FA3D0043097B /* AKIVKMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIVKMusicView.h; sourceTree = "<group>"; };
+		84073CF31E17FA3D0043097B /* AKIVKMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIVKMusicView.m; sourceTree = "<group>"; };
+		84073CF61E17FA800043097B /* AKIVKMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIVKMusicCell.h; sourceTree = "<group>"; };
+		84073CF71E17FA800043097B /* AKIVKMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIVKMusicCell.m; sourceTree = "<group>"; };
+		84073CF91E17FA8D0043097B /* AKIVKMusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKIVKMusicCell.xib; sourceTree = "<group>"; };
+		84073CFB1E1800F60043097B /* AKIGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIGCD.h; sourceTree = "<group>"; };
+		84073CFC1E1800F60043097B /* AKIGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIGCD.m; sourceTree = "<group>"; };
+		84073CFE1E1801230043097B /* AKIObservableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIObservableObject.h; sourceTree = "<group>"; };
+		84073CFF1E1801230043097B /* AKIObservableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIObservableObject.m; sourceTree = "<group>"; };
+		84073D051E18017C0043097B /* AKIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIView.h; sourceTree = "<group>"; };
+		84073D061E18017C0043097B /* AKIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIView.m; sourceTree = "<group>"; };
+		84073D0D1E1801A80043097B /* AKISpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKISpinnerView.h; sourceTree = "<group>"; };
+		84073D0E1E1801A80043097B /* AKISpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKISpinnerView.m; sourceTree = "<group>"; };
+		84073D0F1E1801A80043097B /* AKISpinnerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKISpinnerView.xib; sourceTree = "<group>"; };
+		84073D121E1801CA0043097B /* AKIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIModel.h; sourceTree = "<group>"; };
+		84073D131E1801CA0043097B /* AKIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIModel.m; sourceTree = "<group>"; };
+		84073D1C1E1801EC0043097B /* JSON+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSON+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D1D1E1801EC0043097B /* JSON+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSON+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D1F1E1801EC0043097B /* NSArray+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D201E1801EC0043097B /* NSArray+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D221E1801EC0043097B /* NSBundle+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D231E1801EC0043097B /* NSBundle+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D251E1801EC0043097B /* NSFileManager+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D261E1801EC0043097B /* NSFileManager+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D281E1801EC0043097B /* NSMutableArray+AKIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AKIExtension.h"; sourceTree = "<group>"; };
+		84073D291E1801EC0043097B /* NSMutableArray+AKIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AKIExtension.m"; sourceTree = "<group>"; };
+		84073D2B1E1801EC0043097B /* NSNotificationCenter+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D2C1E1801EC0043097B /* NSNotificationCenter+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D2E1E1801EC0043097B /* NSObject+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D2F1E1801EC0043097B /* NSObject+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D311E1801EC0043097B /* NSString+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D321E1801EC0043097B /* NSString+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D341E1801EC0043097B /* UINib+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINib+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D351E1801EC0043097B /* UINib+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINib+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D381E1801EC0043097B /* AKIArrayChangeModel+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKIArrayChangeModel+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D391E1801EC0043097B /* AKIArrayChangeModel+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AKIArrayChangeModel+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D3A1E1801EC0043097B /* UITableView+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D3B1E1801EC0043097B /* UITableView+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D3D1E1801EC0043097B /* UIViewController+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D3E1E1801EC0043097B /* UIViewController+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D401E1801EC0043097B /* UIWindow+AKIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+AKIExtensions.h"; sourceTree = "<group>"; };
+		84073D411E1801EC0043097B /* UIWindow+AKIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+AKIExtensions.m"; sourceTree = "<group>"; };
+		84073D501E1802080043097B /* AKIArrayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIArrayModel.h; sourceTree = "<group>"; };
+		84073D511E1802080043097B /* AKIArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIArrayModel.m; sourceTree = "<group>"; };
+		84073D531E1802080043097B /* AKIUsersArrayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIUsersArrayModel.h; sourceTree = "<group>"; };
+		84073D541E1802080043097B /* AKIUsersArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIUsersArrayModel.m; sourceTree = "<group>"; };
+		84073D581E1802100043097B /* AKIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIUser.h; sourceTree = "<group>"; };
+		84073D591E1802100043097B /* AKIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIUser.m; sourceTree = "<group>"; };
+		84073D5B1E1804F90043097B /* AKIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKIMacro.h; sourceTree = "<group>"; };
+		84073D5C1E1804F90043097B /* AKIMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKIMacro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +149,8 @@
 		84073CB31E17F6C50043097B /* vkmusic */ = {
 			isa = PBXGroup;
 			children = (
-				84073CB71E17F6C50043097B /* AppDelegate.h */,
-				84073CB81E17F6C50043097B /* AppDelegate.m */,
+				84073CB71E17F6C50043097B /* AKIAppDelegate.h */,
+				84073CB81E17F6C50043097B /* AKIAppDelegate.m */,
 				84073CBD1E17F6C50043097B /* Main.storyboard */,
 				84073CC01E17F6C50043097B /* Assets.xcassets */,
 				84073CC21E17F6C50043097B /* LaunchScreen.storyboard */,
@@ -104,6 +196,8 @@
 		84073CCF1E17F83E0043097B /* AKIMacro */ = {
 			isa = PBXGroup;
 			children = (
+				84073D5B1E1804F90043097B /* AKIMacro.h */,
+				84073D5C1E1804F90043097B /* AKIMacro.m */,
 			);
 			path = AKIMacro;
 			sourceTree = "<group>";
@@ -122,6 +216,8 @@
 		84073CD11E17F83E0043097B /* AKIGCD */ = {
 			isa = PBXGroup;
 			children = (
+				84073CFB1E1800F60043097B /* AKIGCD.h */,
+				84073CFC1E1800F60043097B /* AKIGCD.m */,
 			);
 			path = AKIGCD;
 			sourceTree = "<group>";
@@ -129,6 +225,8 @@
 		84073CD21E17F83E0043097B /* AKIObservableObject */ = {
 			isa = PBXGroup;
 			children = (
+				84073CFE1E1801230043097B /* AKIObservableObject.h */,
+				84073CFF1E1801230043097B /* AKIObservableObject.m */,
 			);
 			path = AKIObservableObject;
 			sourceTree = "<group>";
@@ -136,6 +234,8 @@
 		84073CD31E17F83E0043097B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84073D571E1802100043097B /* AKIUser */,
+				84073D4F1E1802080043097B /* AKIArrayModel */,
 				84073CD41E17F83E0043097B /* AKIImage */,
 				84073CD51E17F83E0043097B /* AKIModel */,
 			);
@@ -152,6 +252,8 @@
 		84073CD51E17F83E0043097B /* AKIModel */ = {
 			isa = PBXGroup;
 			children = (
+				84073D121E1801CA0043097B /* AKIModel.h */,
+				84073D131E1801CA0043097B /* AKIModel.m */,
 			);
 			path = AKIModel;
 			sourceTree = "<group>";
@@ -168,6 +270,9 @@
 		84073CD71E17F83E0043097B /* AKISpinnerView */ = {
 			isa = PBXGroup;
 			children = (
+				84073D0D1E1801A80043097B /* AKISpinnerView.h */,
+				84073D0E1E1801A80043097B /* AKISpinnerView.m */,
+				84073D0F1E1801A80043097B /* AKISpinnerView.xib */,
 			);
 			path = AKISpinnerView;
 			sourceTree = "<group>";
@@ -175,6 +280,8 @@
 		84073CD81E17F83E0043097B /* AKIView */ = {
 			isa = PBXGroup;
 			children = (
+				84073D051E18017C0043097B /* AKIView.h */,
+				84073D061E18017C0043097B /* AKIView.m */,
 			);
 			path = AKIView;
 			sourceTree = "<group>";
@@ -192,6 +299,18 @@
 		84073CDA1E17F83E0043097B /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				84073D151E1801EC0043097B /* JSON Serialization */,
+				84073D1E1E1801EC0043097B /* NSArray */,
+				84073D211E1801EC0043097B /* NSBundle */,
+				84073D241E1801EC0043097B /* NSFileManager */,
+				84073D271E1801EC0043097B /* NSMutableArray */,
+				84073D2A1E1801EC0043097B /* NSNotificationCenter */,
+				84073D2D1E1801EC0043097B /* NSObject */,
+				84073D301E1801EC0043097B /* NSString */,
+				84073D331E1801EC0043097B /* UINib */,
+				84073D361E1801EC0043097B /* UITableView */,
+				84073D3C1E1801EC0043097B /* UIViewController */,
+				84073D3F1E1801EC0043097B /* UIWindow */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -215,6 +334,8 @@
 		84073CDD1E17F83E0043097B /* AKIAbstractViewController */ = {
 			isa = PBXGroup;
 			children = (
+				84073CE11E17F9640043097B /* AKIAbstractViewController.h */,
+				84073CE21E17F9640043097B /* AKIAbstractViewController.m */,
 			);
 			path = AKIAbstractViewController;
 			sourceTree = "<group>";
@@ -224,6 +345,8 @@
 			children = (
 				84073CDF1E17F83E0043097B /* AKIVKLoginViewController */,
 				84073CE01E17F83E0043097B /* AKIVKMusicScreenViewController */,
+				84073CEE1E17F9B30043097B /* AKIVKViewController.h */,
+				84073CEF1E17F9B30043097B /* AKIVKViewController.m */,
 			);
 			path = AKIVKViewController;
 			sourceTree = "<group>";
@@ -231,6 +354,9 @@
 		84073CDF1E17F83E0043097B /* AKIVKLoginViewController */ = {
 			isa = PBXGroup;
 			children = (
+				84073CE41E17F9890043097B /* AKIVKLoginViewController.h */,
+				84073CE51E17F9890043097B /* AKIVKLoginViewController.m */,
+				84073CE61E17F9890043097B /* AKIVKLoginViewController.xib */,
 			);
 			path = AKIVKLoginViewController;
 			sourceTree = "<group>";
@@ -238,8 +364,226 @@
 		84073CE01E17F83E0043097B /* AKIVKMusicScreenViewController */ = {
 			isa = PBXGroup;
 			children = (
+				84073CF51E17FA420043097B /* AKIVKMusicCell */,
+				84073CF11E17FA150043097B /* AKIVKMusicView */,
+				84073CE91E17F99B0043097B /* AKIVKMusicViewController.h */,
+				84073CEA1E17F99B0043097B /* AKIVKMusicViewController.m */,
+				84073CEB1E17F99B0043097B /* AKIVKMusicViewController.xib */,
 			);
 			path = AKIVKMusicScreenViewController;
+			sourceTree = "<group>";
+		};
+		84073CF11E17FA150043097B /* AKIVKMusicView */ = {
+			isa = PBXGroup;
+			children = (
+				84073CF21E17FA3D0043097B /* AKIVKMusicView.h */,
+				84073CF31E17FA3D0043097B /* AKIVKMusicView.m */,
+			);
+			path = AKIVKMusicView;
+			sourceTree = "<group>";
+		};
+		84073CF51E17FA420043097B /* AKIVKMusicCell */ = {
+			isa = PBXGroup;
+			children = (
+				84073CF61E17FA800043097B /* AKIVKMusicCell.h */,
+				84073CF71E17FA800043097B /* AKIVKMusicCell.m */,
+				84073CF91E17FA8D0043097B /* AKIVKMusicCell.xib */,
+			);
+			path = AKIVKMusicCell;
+			sourceTree = "<group>";
+		};
+		84073D151E1801EC0043097B /* JSON Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				84073D161E1801EC0043097B /* JSON Types */,
+				84073D1C1E1801EC0043097B /* JSON+AKIExtensions.h */,
+				84073D1D1E1801EC0043097B /* JSON+AKIExtensions.m */,
+			);
+			path = "JSON Serialization";
+			sourceTree = "<group>";
+		};
+		84073D161E1801EC0043097B /* JSON Types */ = {
+			isa = PBXGroup;
+			children = (
+				84073D171E1801EC0043097B /* NSArray */,
+				84073D181E1801EC0043097B /* NSDictionary */,
+				84073D191E1801EC0043097B /* NSNULL */,
+				84073D1A1E1801EC0043097B /* NSNumber */,
+				84073D1B1E1801EC0043097B /* NSString */,
+			);
+			path = "JSON Types";
+			sourceTree = "<group>";
+		};
+		84073D171E1801EC0043097B /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		84073D181E1801EC0043097B /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		84073D191E1801EC0043097B /* NSNULL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSNULL;
+			sourceTree = "<group>";
+		};
+		84073D1A1E1801EC0043097B /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		84073D1B1E1801EC0043097B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		84073D1E1E1801EC0043097B /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				84073D1F1E1801EC0043097B /* NSArray+AKIExtensions.h */,
+				84073D201E1801EC0043097B /* NSArray+AKIExtensions.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		84073D211E1801EC0043097B /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				84073D221E1801EC0043097B /* NSBundle+AKIExtensions.h */,
+				84073D231E1801EC0043097B /* NSBundle+AKIExtensions.m */,
+			);
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
+		84073D241E1801EC0043097B /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				84073D251E1801EC0043097B /* NSFileManager+AKIExtensions.h */,
+				84073D261E1801EC0043097B /* NSFileManager+AKIExtensions.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		84073D271E1801EC0043097B /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				84073D281E1801EC0043097B /* NSMutableArray+AKIExtension.h */,
+				84073D291E1801EC0043097B /* NSMutableArray+AKIExtension.m */,
+			);
+			path = NSMutableArray;
+			sourceTree = "<group>";
+		};
+		84073D2A1E1801EC0043097B /* NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				84073D2B1E1801EC0043097B /* NSNotificationCenter+AKIExtensions.h */,
+				84073D2C1E1801EC0043097B /* NSNotificationCenter+AKIExtensions.m */,
+			);
+			path = NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+		84073D2D1E1801EC0043097B /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				84073D2E1E1801EC0043097B /* NSObject+AKIExtensions.h */,
+				84073D2F1E1801EC0043097B /* NSObject+AKIExtensions.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		84073D301E1801EC0043097B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				84073D311E1801EC0043097B /* NSString+AKIExtensions.h */,
+				84073D321E1801EC0043097B /* NSString+AKIExtensions.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		84073D331E1801EC0043097B /* UINib */ = {
+			isa = PBXGroup;
+			children = (
+				84073D341E1801EC0043097B /* UINib+AKIExtensions.h */,
+				84073D351E1801EC0043097B /* UINib+AKIExtensions.m */,
+			);
+			path = UINib;
+			sourceTree = "<group>";
+		};
+		84073D361E1801EC0043097B /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				84073D371E1801EC0043097B /* AKIArrayChangeModel */,
+				84073D3A1E1801EC0043097B /* UITableView+AKIExtensions.h */,
+				84073D3B1E1801EC0043097B /* UITableView+AKIExtensions.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		84073D371E1801EC0043097B /* AKIArrayChangeModel */ = {
+			isa = PBXGroup;
+			children = (
+				84073D381E1801EC0043097B /* AKIArrayChangeModel+AKIExtensions.h */,
+				84073D391E1801EC0043097B /* AKIArrayChangeModel+AKIExtensions.m */,
+			);
+			path = AKIArrayChangeModel;
+			sourceTree = "<group>";
+		};
+		84073D3C1E1801EC0043097B /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84073D3D1E1801EC0043097B /* UIViewController+AKIExtensions.h */,
+				84073D3E1E1801EC0043097B /* UIViewController+AKIExtensions.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		84073D3F1E1801EC0043097B /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				84073D401E1801EC0043097B /* UIWindow+AKIExtensions.h */,
+				84073D411E1801EC0043097B /* UIWindow+AKIExtensions.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		84073D4F1E1802080043097B /* AKIArrayModel */ = {
+			isa = PBXGroup;
+			children = (
+				84073D501E1802080043097B /* AKIArrayModel.h */,
+				84073D511E1802080043097B /* AKIArrayModel.m */,
+				84073D521E1802080043097B /* AKIUsersArrayModel */,
+			);
+			path = AKIArrayModel;
+			sourceTree = "<group>";
+		};
+		84073D521E1802080043097B /* AKIUsersArrayModel */ = {
+			isa = PBXGroup;
+			children = (
+				84073D531E1802080043097B /* AKIUsersArrayModel.h */,
+				84073D541E1802080043097B /* AKIUsersArrayModel.m */,
+			);
+			path = AKIUsersArrayModel;
+			sourceTree = "<group>";
+		};
+		84073D571E1802100043097B /* AKIUser */ = {
+			isa = PBXGroup;
+			children = (
+				84073D581E1802100043097B /* AKIUser.h */,
+				84073D591E1802100043097B /* AKIUser.m */,
+			);
+			path = AKIUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +646,11 @@
 			files = (
 				84073CC41E17F6C50043097B /* LaunchScreen.storyboard in Resources */,
 				84073CC11E17F6C50043097B /* Assets.xcassets in Resources */,
+				84073D111E1801A80043097B /* AKISpinnerView.xib in Resources */,
+				84073CFA1E17FA8D0043097B /* AKIVKMusicCell.xib in Resources */,
+				84073CED1E17F99B0043097B /* AKIVKMusicViewController.xib in Resources */,
 				84073CBF1E17F6C50043097B /* Main.storyboard in Resources */,
+				84073CE81E17F9890043097B /* AKIVKLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +661,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84073CB91E17F6C50043097B /* AppDelegate.m in Sources */,
+				84073D5D1E1804F90043097B /* AKIMacro.m in Sources */,
+				84073CB91E17F6C50043097B /* AKIAppDelegate.m in Sources */,
+				84073D491E1801EC0043097B /* NSString+AKIExtensions.m in Sources */,
+				84073D461E1801EC0043097B /* NSMutableArray+AKIExtension.m in Sources */,
+				84073D001E1801230043097B /* AKIObservableObject.m in Sources */,
+				84073D071E18017C0043097B /* AKIView.m in Sources */,
+				84073CF01E17F9B30043097B /* AKIVKViewController.m in Sources */,
+				84073CF81E17FA800043097B /* AKIVKMusicCell.m in Sources */,
+				84073D4C1E1801ED0043097B /* UITableView+AKIExtensions.m in Sources */,
+				84073D551E1802080043097B /* AKIArrayModel.m in Sources */,
+				84073D4A1E1801ED0043097B /* UINib+AKIExtensions.m in Sources */,
+				84073CE31E17F9640043097B /* AKIAbstractViewController.m in Sources */,
+				84073D481E1801EC0043097B /* NSObject+AKIExtensions.m in Sources */,
 				84073CB61E17F6C50043097B /* main.m in Sources */,
+				84073D141E1801CA0043097B /* AKIModel.m in Sources */,
+				84073D561E1802080043097B /* AKIUsersArrayModel.m in Sources */,
+				84073CEC1E17F99B0043097B /* AKIVKMusicViewController.m in Sources */,
+				84073CF41E17FA3D0043097B /* AKIVKMusicView.m in Sources */,
+				84073D101E1801A80043097B /* AKISpinnerView.m in Sources */,
+				84073CFD1E1800F60043097B /* AKIGCD.m in Sources */,
+				84073D471E1801EC0043097B /* NSNotificationCenter+AKIExtensions.m in Sources */,
+				84073D4B1E1801ED0043097B /* AKIArrayChangeModel+AKIExtensions.m in Sources */,
+				84073D4D1E1801ED0043097B /* UIViewController+AKIExtensions.m in Sources */,
+				84073D5A1E1802100043097B /* AKIUser.m in Sources */,
+				84073CE71E17F9890043097B /* AKIVKLoginViewController.m in Sources */,
+				84073D4E1E1801ED0043097B /* UIWindow+AKIExtensions.m in Sources */,
+				84073D451E1801EC0043097B /* NSFileManager+AKIExtensions.m in Sources */,
+				84073D421E1801EC0043097B /* JSON+AKIExtensions.m in Sources */,
+				84073D441E1801EC0043097B /* NSBundle+AKIExtensions.m in Sources */,
+				84073D431E1801EC0043097B /* NSArray+AKIExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
